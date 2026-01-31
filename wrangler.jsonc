@@ -41,14 +41,15 @@
       "max_instances": 1,
     },
   ],
-  "durable_objects": {
-    "bindings": [
-      {
-        "class_name": "Sandbox",
-        "name": "Sandbox",
-      },
-    ],
-  },
+"durable_objects": {
+  "bindings": [
+    {
+      "name": "Sandbox",
+      "class_name": "Sandbox",
+      "namespace_id": "a24880dd25e24404925d25aae35ae83c"
+    }
+  ]
+},
   "migrations": [
     {
       "new_sqlite_classes": ["Sandbox"],
